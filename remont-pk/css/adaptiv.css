@@ -1,5 +1,50 @@
 @media screen and (max-width: 1440px) {
 	.container {
-		max-width: 1300px;
+		padding-left: 20px;
+		padding-top: 20px;
     }
+		.header__h1{
+			font-size: 40px;
+		}
+		.header__h2{
+			max-width: 500px;
+			font-size: 25px;
+		}
+		.promotion{
+			margin-top: -220px;
+		}
+		.aside__h1{
+			font-size: 35px;
+		}
+		.services__h1{
+			font-size: 35px;
+		}
+		.services__item h2{
+			font-size: 20px;
+		}
+		.services__item p{
+			font-size: 15px;
+		}
+		.about__h1{
+			font-size: 35px;
+		}
+		.about__img img{
+			margin-top: 75px;
+		}
+		.slider__h1{
+			font-size: 35px;
+		}
+		.questions__h1{
+			font-size: 35px;
+		}
+		.toggle h1{
+			font-size: 25px;
+		}
+
+		.footer{
+			height: 145px;
+		}
+		.footer__right-a{
+			margin-right: 20px;
+		}
 }
