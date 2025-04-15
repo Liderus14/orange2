@@ -41,6 +41,16 @@
 			font-size: 25px;
 		}
 
+        .container__acordeon{
+            width: 1200px;
+            margin: 0 auto;
+            padding-top: 30px;
+        }
+
+        .questions{
+            height: 900px;
+        }
+
 		.footer{
 			height: 145px;
 		}
