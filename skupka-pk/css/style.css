@@ -1,0 +1,245 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.nav__bar {
+    width: 100%;
+    height: 920px;
+    background: url(/skupka-pk/images/header_fon.jpg);
+}
+
+.nav__bar-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.logo h2 {
+    color: #fff;
+}
+
+.menu ul {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+}
+
+.menu a:hover {
+    text-decoration: underline wavy #ff33cc;
+}
+
+.soc__icon img {
+    width: 30px;
+    height: 30px;
+}
+
+.nav__href {
+    font-size: 24px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.contact__nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact__nav a {
+    text-decoration: none;
+}
+
+.nav_hr {
+    color: #ff33cc;
+    font-weight: bold;
+    margin-left: 30px;
+    font-size: 18px;
+}
+
+.nav_hr:hover {
+    text-decoration: underline wavy #ff33cc;
+}
+
+.header__block {
+
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.header__block-left h1 {
+    max-width: 600px;
+    font-size: 100px;
+    color: #fff;
+}
+
+.header__block-right img {
+    margin-top: 150px;
+}
+
+.header__block-left span {
+    background: linear-gradient(45deg, #ff33cc, #3366ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top: 10px;
+}
+
+.header__item{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -80px;
+}
+
+.header__items img{
+    width: 80px;
+    height: 80px;
+}
+
+.header__items p{
+    margin-top: -10px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.header__btn{
+    width: 300px;
+    height: 50px;
+    color: #fff;
+    font-size: 25px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3366ff;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.header__btn:hover{
+    background: linear-gradient(45deg, #ff33cc, #3366ff);
+}
+
+/* модальное окно */
+.modal {
+    display: none; /* Скрываем модальное окно по умолчанию */
+    position: fixed;
+    z-index: 1; /* Задаем высокий индекс, чтобы оно было поверх всего */
+    left: 720px;
+    top: 0;
+    overflow: auto;
+}
+
+.modal-content {
+    background: linear-gradient(45deg, #ff33cc, #3366ff);
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 150px;
+    border-radius: 10px;
+
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-content h3{
+    color: #fff;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+}
+  /* конец модального окна */
+
+  /* класс формы  */
+  .form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    width: 320px;
+    margin-bottom: 60px;
+  }
+
+  .name{
+    width: 360px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+
+  }
+  .tel{
+    width: 360px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+
+  .form__btn{
+    width: 380px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+
+  .advategh{
+    width: 100%;
+    height:700px ;
+    background: url(/skupka-pk/images/rating-fon.jpg);
+    padding-top: 50px;
+  }
+
+  .advantegh__block{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .advantegh__item{
+    width: 172px;
+    height: 212px;
+    background-repeat: no-repeat;
+    background: url(/skupka-pk/images/plash.png);
+    margin-bottom: 50px;
+  }
+
+  .advantegh__item img{
+    width: 142px;
+    height: 124px;
+    padding: 10px;
+  }
+
+  .advantegh__item p{
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    padding: 5px;
+  }
