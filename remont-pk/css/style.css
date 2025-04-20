@@ -161,6 +161,11 @@ h1 {
     margin-top: 50px;
 }
 
+.header__btn a{
+    text-decoration: none;
+    color: #000;
+}
+
 
 .promo {
     display: flex;
@@ -195,6 +200,11 @@ h1 {
     cursor: pointer;
     background-color: #51D1DD;
     font-size: 18px;
+}
+
+.promo__btn a{
+    text-decoration: none;
+    color: #000;
 }
 
 

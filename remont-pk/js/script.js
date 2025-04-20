@@ -242,3 +242,4 @@ icons[j].classList.add('fa-plus');
 });
 
 }
+

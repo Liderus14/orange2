@@ -7,6 +7,7 @@
     <title>Мастер по компьютерам в Перми</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/adaptiv.css">
+    <link rel="stylesheet" href="css/modal.css">
 </head>
 
 <body>
@@ -33,7 +34,7 @@
                         <a href=""><img src="img/logos_whatsapp-icon (2).png"></a>
                         <a href=""><img src="img/logos_telegram (2).png"></a>
                     </div>
-                    <a class="contact__a" href="#">Заказать звонок</a>
+                    <a class="contact__a" href="#open-modal">Заказать звонок</a>
                 </div>
             </section>
             <div class="header__block">
@@ -47,10 +48,10 @@
                         </div>
                         <div class="header__h">
                             <img src="img/icons8.png">
-                            <p>Выезд и диагностика бесплатно</p>
+                            <p>Выезд  бесплатно</p>
                         </div>
                     </div>
-                    <button class="header__btn">Вызвать мастера</button>
+                    <button class="header__btn"><a href="#open-modal">Вызвать мастера</a></button>
                 </div>
                 <div class="header__img">
                     <img src="img/image 1.png" alt="">
@@ -61,7 +62,7 @@
             <div class="container">
                 <div class="promotion">
                     <h1 class="promo__h1">Скидка всем пенсионерам 30%</h1>
-                    <button class="promo__btn">Вызвать мастера</button>
+                    <button class="promo__btn"><a href="#open-modal">Вызвать мастера</a></button>
                 </div>
             </div>
         </section>
@@ -244,11 +245,12 @@
 
                 <div class="wrapper">
                     <button class="toggle">
-                       <h1>А платный ли у Вас выезд?</h1> 
+                        <h1>А платный ли у Вас выезд?</h1>
                         <i class="fas fa-plus icon"></i>
                     </button>
                     <div class="content">
-                        <p>Выезд абсолютно бесплатен, Вы оплачиваете только диагностику компьютьера или ноутбука в размере 650 рублей не более.</p>
+                        <p>Выезд абсолютно бесплатен, Вы оплачиваете только диагностику компьютьера или ноутбука в
+                            размере 650 рублей не более.</p>
                     </div>
                 </div>
 
@@ -268,8 +270,10 @@
                         <i class="fas fa-plus icon"></i>
                     </button>
                     <div class="content">
-                        <p>Я предоставляю гарантию как на работу так и на комплектующие, срок гарантии зависит от ремонта, или детали которую заменил. 
-                            <br>Обязательно сохранять чек пока не истечет гарантйный срок.</p>
+                        <p>Я предоставляю гарантию как на работу так и на комплектующие, срок гарантии зависит от
+                            ремонта, или детали которую заменил.
+                            <br>Обязательно сохранять чек пока не истечет гарантйный срок.
+                        </p>
                     </div>
                 </div>
                 <div class="wrapper">
@@ -278,7 +282,8 @@
                         <i class="fas fa-plus icon"></i>
                     </button>
                     <div class="content">
-                        <p>К сожалению у меня нет офиса, и сервисного центра,  все мои услуги я осуществляю на выезде, у Вас дома или в Вашем офисе.</p>
+                        <p>К сожалению у меня нет офиса, и сервисного центра, все мои услуги я осуществляю на выезде, у
+                            Вас дома или в Вашем офисе.</p>
                     </div>
                 </div>
                 <div class="wrapper">
@@ -287,7 +292,10 @@
                         <i class="fas fa-plus icon"></i>
                     </button>
                     <div class="content">
-                        <p>Все зависит от загруженности по заказам, обычно занимает не более 1 часа, но бывает исключения и заявок очень много, поэтому если Вам очень срочно необходимо то для этого существует срочный ремонт и выезд мастера оплачивается по двойному тарифу, об этом Вам необходимо сообщить менеджеру, тогда менеджер сможет Вас сооринтировать по стоимости.</p>
+                        <p>Все зависит от загруженности по заказам, обычно занимает не более 1 часа, но бывает
+                            исключения и заявок очень много, поэтому если Вам очень срочно необходимо то для этого
+                            существует срочный ремонт и выезд мастера оплачивается по двойному тарифу, об этом Вам
+                            необходимо сообщить менеджеру, тогда менеджер сможет Вас сооринтировать по стоимости.</p>
                     </div>
                 </div>
                 <div class="wrapper">
@@ -296,7 +304,9 @@
                         <i class="fas fa-plus icon"></i>
                     </button>
                     <div class="content">
-                        <p>К сожалению я это не предусмотрел так как цены всегда индивидуальны, зависит от поломки и множества факторов, но я не когда не завышаю цены, а даже наоборот делаю ремонт очень и очень дешево</p>
+                        <p>К сожалению я это не предусмотрел так как цены всегда индивидуальны, зависит от поломки и
+                            множества факторов, но я не когда не завышаю цены, а даже наоборот делаю ремонт очень и
+                            очень дешево</p>
                     </div>
                 </div>
             </div>
@@ -322,10 +332,34 @@
                     </div>
                     <a class="footer__right-a" href="tel:+79931960576">8-993-196-05-76</a>
                 </div>
-               
+
             </div>
         </div>
+        <section class="modal__forma">
+            <div id="open-modal" class="modal-window">
+                <a href="#" class="modal-backdrop"></a>
+                <div class="modal">
+                    <a href="#" title="Close" class="modal-close">✖</a>
+                   <h1 class="modal__h1">Вызвать мастера на дом</h1>
+                    <div class="form__content">
+                        <form class="form" action="" method="post">
+                            <input class="name" type="text" name="name" placeholder="Введите Ваше имя" required="">
+                            <input class="phone" type="tel" name="phone" placeholder="Введите Ваш номер" required="">
+                            <button class="form__btn">Отправить</button>
+                            <p>Нажимая на кнопку "Отправить"<br> Вы даете на обработку своих персональных данных и соглашаетесь с условиями Политикой конфиденциальности</p>
+                    </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
     </section>
+
+
+    <!-- Форма  -->
+
+
 
 
 
