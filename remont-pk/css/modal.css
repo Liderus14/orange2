@@ -143,3 +143,32 @@
     font-family: "Oswald", sans-serif;
     text-align: center;
 }
+
+@media screen and (max-width: 500px) {
+    .modal{
+        width: 12rem !important;
+        height: 300px;
+    }
+    .modal__h1{
+        font-size: 15px;
+    }
+
+    .name{
+        width: 180px;
+        height: 30px;
+    }
+    .phone{
+        width: 180px;
+        height: 30px;
+    }
+
+    .form__btn{
+        width: 200px;
+        height: 40px;
+        font-size: 20px;
+    }
+
+    .form p{
+        font-size: 8px;
+    }
+}
