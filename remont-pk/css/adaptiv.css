@@ -219,7 +219,7 @@
 	}
 
 	.header__btn {
-		margin-left: 80px;
+		margin-left: 104px;
 	}
 
 	.promotion {
@@ -430,7 +430,15 @@
 	}
 
 	.container__acordeon{
-		margin-right: 28px;
+		margin-right: 50px;
+	}
+
+	.wrapper{
+		padding: 5px;
+	}
+
+	.questions{
+		height: 600px;
 	}
 }
 

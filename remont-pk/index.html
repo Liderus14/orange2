@@ -1,3 +1,26 @@
+<?php
+
+if (isset($_POST))
+{
+	$name = isset($_POST['name']) ? htmlspecialchars($_POST['name']) : '';
+	$phone = isset($_POST['phone']) ? htmlspecialchars($_POST['phone']) : '';
+	$messanger = isset($_POST['messanger']) ? htmlspecialchars($_POST['messanger']) : '';
+
+	 if(!empty($phone))
+	{
+	    $message  = "Ремонт компьютеров!\n";
+	    $message .= "Имя: ".$name."\n";    
+	    $message .= "Телефон: ".$phone."\n";
+	    $message .= !empty($messanger) ? "Мессендер: ".$messanger."" : "";
+
+	    mail('mokrushinmix@yandex.ru', 'Новая заявка ремонт пк!', $message, 'From: notice@'.$_SERVER['SERVER_NAME'].'');      
+	}
+}
+
+$cms = require_once $_SERVER['DOCUMENT_ROOT'] . '/init.php'; $cms->thankspage = __DIR__ . '/success.php';
+$cms->landing( 385, 398 );
+?>
+
 <!DOCTYPE html>
 <html lang="ru">
 
@@ -8,6 +31,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/adaptiv.css">
     <link rel="stylesheet" href="css/modal.css">
+    <?php $cms->header(); ?>
 </head>
 
 <body>
@@ -348,6 +372,7 @@
                             <button class="form__btn">Отправить</button>
                             <p>Нажимая на кнопку "Отправить"<br> Вы даете на обработку своих персональных данных и соглашаетесь с условиями Политикой конфиденциальности</p>
                     </div>
+                    <?=$cms->params();?> 
                         </form>
                     </div>
                 </div>
@@ -366,6 +391,8 @@
 
 
     <script src="js/script.js"></script>
+
+    <?php $cms->footer(); ?>
 </body>
 
 </html>
