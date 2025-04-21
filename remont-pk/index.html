@@ -1,26 +1,3 @@
-<?php
-
-if (isset($_POST))
-{
-	$name = isset($_POST['name']) ? htmlspecialchars($_POST['name']) : '';
-	$phone = isset($_POST['phone']) ? htmlspecialchars($_POST['phone']) : '';
-	$messanger = isset($_POST['messanger']) ? htmlspecialchars($_POST['messanger']) : '';
-
-	 if(!empty($phone))
-	{
-	    $message  = "Ремонт компьютеров!\n";
-	    $message .= "Имя: ".$name."\n";    
-	    $message .= "Телефон: ".$phone."\n";
-	    $message .= !empty($messanger) ? "Мессендер: ".$messanger."" : "";
-
-	    mail('mokrushinmix@yandex.ru', 'Новая заявка ремонт пк!', $message, 'From: notice@'.$_SERVER['SERVER_NAME'].'');      
-	}
-}
-
-$cms = require_once $_SERVER['DOCUMENT_ROOT'] . '/init.php'; $cms->thankspage = __DIR__ . '/success.php';
-$cms->landing( 385, 398 );
-?>
-
 <!DOCTYPE html>
 <html lang="ru">
 
@@ -384,15 +361,8 @@ $cms->landing( 385, 398 );
 
     <!-- Форма  -->
 
-
-
-
-
-
-
     <script src="js/script.js"></script>
 
-    <?php $cms->footer(); ?>
 </body>
 
 </html>

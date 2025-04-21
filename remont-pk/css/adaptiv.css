@@ -102,6 +102,11 @@
 		max-width: 500px;
 	}
 
+	.slider {
+		max-width: 900px;
+		margin-left: 43px;
+	}
+
 	.header__btn {
 		width: 220px;
 		height: 40px;
@@ -126,10 +131,15 @@
 	.about__title h3 {
 		max-width: 580px;
 		font-size: 15px;
+		padding: 10px;
 	}
 
 	.container__acordeon {
 		width: 900px;
+	}
+
+	.promotion {
+		margin-top: -185px;
 	}
 }
 
@@ -144,7 +154,7 @@
 
 	.promotion {
 		width: 700px;
-		margin-top: -155px;
+		margin-top: -110px;
 	}
 
 	.aside__h1 {
@@ -180,7 +190,7 @@
 	}
 
 	.container__acordeon {
-		width: 550px;
+		width: 650px;
 	}
 
 	.toggle h1 {
@@ -191,10 +201,18 @@
 		font-size: 16px;
 	}
 
+	.slider {
+		max-width: 700px;
+		margin-left: 15px;
+	}
+
+	.slider__item_text {
+		font-size: 14px;
+	}
+
 }
 
-
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 500px) {
 	.header {
 		height: 600px;
 	}
@@ -365,7 +383,7 @@
 }
 
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 500px) {
 	.logo h1 {
 		font-size: 20px;
 	}
@@ -403,7 +421,7 @@
 		margin-top: -110px;
 	}
 
-	.aside{
+	.aside {
 		height: 355px;
 	}
 
@@ -414,45 +432,331 @@
 	.iside__items h2 {
 		font-size: 12px;
 	}
+
 	.iside__items p {
 		margin-top: -8px;
 	}
 
-	.services__block{
+	.services__block {
 		justify-content: center;
 	}
 
-	.about__title h3{
+	.about__title h3 {
 		font-size: 10px;
 	}
-	.about{
+
+	.about {
 		height: 400px;
 	}
 
-	.container__acordeon{
+	.container__acordeon {
 		margin-right: 50px;
 	}
 
-	.wrapper{
+	.wrapper {
 		padding: 5px;
 	}
 
-	.questions{
+	.questions {
 		height: 600px;
 	}
 }
 
-@media screen and (max-width: 320px) {
-	.header__p p{
+@media screen and (max-width: 428px) {
+	.slider{
+		width: 355px;
+	}
+}
+
+
+
+@media screen and (max-width: 425px) {
+	.header {
+		height: 600px;
+	}
+
+	.header__h1 {
+		text-align: center;
+		margin-right: 24px;
+	}
+
+	.header__h2 {
+		font-size: 20px;
+		text-align: center;
+		margin-right: 30px;
+	}
+
+	.header__img img {
+		display: none;
+	}
+
+	.header__h {
+		margin-right: 35px;
+	}
+
+	.header__btn {
+		margin-left: 104px;
+	}
+
+	.promotion {
+		display: flex;
+		flex-direction: column;
+		margin-top: -135px;
+		width: 400px;
+		margin-right: 22px;
+		height: 80px;
+	}
+
+	.promo__h1 {
+		font-size: 18px;
+	}
+
+	.promo__btn {
+		width: 160px;
+		height: 30px;
+		margin-top: -10px;
+	}
+
+	.aside {
+		height: 415px;
+	}
+
+	.aside__h1 {
+		font-size: 24px;
+		margin-top: 45px;
+	}
+
+	.aside__item {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		align-items: center;
+		justify-content: center;
+		margin-right: 10px;
+	}
+
+	.iside__items h2 {
+		font-size: 14px;
+		justify-content: flex-start;
+	}
+
+	.iside__items p {
+		font-size: 12px;
+		justify-content: flex-start;
+	}
+
+	.services__h1 {
+		font-size: 24px;
+	}
+
+	.services__block {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.services__item {
+		width: 150px;
+	}
+
+	.services__item h2 {
+		font-size: 16px;
+	}
+
+	.about__h1 {
+		font-size: 24px;
+	}
+
+	.about__img img {
+		display: none;
+	}
+
+	.about__title {
+		margin-right: 35px;
+	}
+
+	.slider {
+		margin-left: 32px;
+	}
+
+	.slider__h1 {
+		font-size: 24px;
+	}
+
+	.slider__item_text {
 		font-size: 10px;
 	}
-	.header__p img{
+
+	.questions {
+		height: 620px;
+	}
+
+	.questions__h1 {
+		font-size: 24px;
+	}
+
+	.container__acordeon {
+		max-width: 320px;
+	}
+
+	.toggle h1 {
+		font-size: 9px;
+	}
+
+	.content p {
+		font-size: 8px;
+		line-height: 10px;
+	}
+
+	.footer {
+		height: 90px;
+	}
+
+	.footer__left-h2 {
+		font-size: 12px;
+	}
+
+	.footer__left-p {
+		font-size: 12px;
+		margin-top: -9px;
+	}
+
+	.footer__center a {
+		font-size: 12px;
+		margin-right: 8px;
+	}
+
+	.footer__center p {
+		font-size: 12px;
+		margin-right: 6px;
+	}
+
+	.footer__icon img {
+		width: 20px;
+	}
+
+	.footer__right-a {
+		font-size: 12px;
+	}
+}
+
+@media screen and (max-width: 390px) {
+	.header__btn{
+		margin-left: 87px;
+	}
+
+	.promotion{
+		width: 335px;
+		margin-top: -105px;
+	}
+
+	.slider{
+		margin-left: -1px;
+	}
+
+	.container__acordeon{
+		max-width: 350px;
+	}
+}
+
+
+@media screen and (max-width: 375px) {
+	.logo h1 {
+		font-size: 20px;
+	}
+
+	.logo p {
+		font-size: 16px;
+	}
+
+	.contact__tel {
+		font-size: 16px;
+	}
+
+	.soc__icon img {
+		width: 15px;
+	}
+
+	.contact__a {
+		font-size: 14px;
+	}
+
+	.header__p p {
+		font-size: 14px;
+	}
+
+	.header__h p {
+		font-size: 14px;
+	}
+
+	.header__btn {
+		margin-left: 80px;
+		width: 170px;
+	}
+
+	.promotion {
+		width: 280px;
+		margin-top: -110px;
+	}
+
+	.aside {
+		height: 355px;
+	}
+
+	.aside__h1 {
+		margin-top: 15px;
+	}
+
+	.iside__items h2 {
+		font-size: 12px;
+	}
+
+	.iside__items p {
+		margin-top: -8px;
+	}
+
+	.services__block {
+		justify-content: center;
+	}
+
+	.about__title h3 {
+		font-size: 10px;
+	}
+
+	.about {
+		height: 400px;
+	}
+
+	.wrapper {
+		padding: 5px;
+	}
+
+	.questions {
+		height: 600px;
+	}
+
+	.slider {
+		width: 335px;
+		margin-left: 1px;
+	}
+
+	.container__acordeon {
+		max-width: 335px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.header__p p {
+		font-size: 10px;
+	}
+
+	.header__p img {
 		width: 30px;
 	}
-	.header__h p{
+
+	.header__h p {
 		font-size: 10px;
 	}
-	.header__h img{
+
+	.header__h img {
 		width: 30px;
 	}
 
@@ -461,52 +765,56 @@
 		margin-left: 68px;
 	}
 
-	.promotion{
+	.promotion {
 		margin-top: -140px;
 	}
 
-	.promo__btn{
+	.promo__btn {
 		width: 135px;
 	}
 
-	.services__item{
+	.services__item {
 		width: 100px;
 	}
-	.services__item h2{
+
+	.services__item h2 {
 		font-size: 12px;
 	}
 
-	.about__title h3{
-		font-size: 9px;
-	}
-
-	.slider{
-		width: 290px;
-	}
-	.slider__items{
-		width: 280px;
-	}
-
-	.slider__control{
-		display: none;
-	}
-
-	.slider__item_text{
+	.about__title h3 {
 		font-size: 8px;
 	}
 
-	.container__acordeon{
+	.slider {
+		width: 290px;
+		margin-left: 2px;
+	}
+
+	.slider__items {
 		width: 280px;
 	}
 
-	.wrapper{
+	.slider__control {
+		display: none;
+	}
+
+	.slider__item_text {
+		font-size: 8px;
+	}
+
+	.container__acordeon {
+		width: 280px;
+	}
+
+	.wrapper {
 		padding: 5px;
 	}
 
-	.toggle{
+	.toggle {
 		padding: 2px;
 	}
-	.questions{
+
+	.questions {
 		height: 450px;
 	}
 
